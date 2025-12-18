@@ -10,6 +10,8 @@ import {
   Hourglass,
   Settings2,
   X,
+  Bell,
+  TrendingUp,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -87,6 +89,26 @@ const Menu = () => {
       name: "calendar",
       url: "/app/calendar",
       icon: <Calendar1 className="w-5 h-5" />,
+    },
+    {
+      name: "resources",
+      url: "/app/resources",
+      icon: <BookOpenText className="w-5 h-5" />,
+    },
+    {
+      name: "contribute",
+      url: "/app/contribute",
+      icon: <CiShare1 className="w-5 h-5" />,
+    },
+    {
+      name: "notifications",
+      url: "/app/notifications",
+      icon: <Bell className="w-5 h-5" />,
+    },
+    {
+      name: "analytics",
+      url: "/app/analytics",
+      icon: <TrendingUp className="w-5 h-5" />,
     },
     {
       name: "profile",
